@@ -1,0 +1,7 @@
+*.json
+*.toml
+*.csv
+*.log
+
+leveldb/
+!config_sample.toml

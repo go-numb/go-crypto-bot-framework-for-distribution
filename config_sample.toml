@@ -1,0 +1,23 @@
+# Better setting config
+
+## Bitflyer
+bf_key = "<bitflyer_api_key>"
+bf_secret = "<bitflyer_api_secretkey>"
+
+testnet = false
+leverage = 4
+code = "FX_BTC_JPY"
+size = [ 0.01, 0.05, 1.0 ]
+expire = 30
+tension = 0.1
+
+## Logics - market make basic
+mm_basic = true
+mm_basic_diff_ratio = 0.0002
+
+
+# Options
+## Discord connection
+## - Interactive communication
+## ※ not webhook
+discord_bot_token = "<discord_bot_token>"
